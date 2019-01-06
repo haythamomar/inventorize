@@ -1,0 +1,22 @@
+Package: inventorize
+Title: Inventory Analytics and Cost Calculations
+Version: 0.0.0.9000
+Authors@R: person("haytham", "omar", email = "h.omar5942@gmail.com", role = c("aut", "cre"))
+Description: facilitate  inventory analysis calculations.the package heavily relies on my studies,
+  especially the MIT micro masters program for supply chain lead by Prof. Chris Caplice.
+  the package includes calculations of inventory metrics, profit calculations and ABC analysis calculations.
+  the first version has only normal and Poisson distributions but I am hoping that other distributions will follow in later versions..
+Depends: R (>= 3.4.0)
+License: GPL-2
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+LazyData: true
+
+Imports: 
+    dplyr,
+    ggplot2,
+    stats
+suggests:
+     knitr,
+     rmarkdown
+vignetteBuilder:
